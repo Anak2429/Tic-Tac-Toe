@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./output.css">
+   
+</head>
+<body class="flex justify-center items-center min-h-screen">
+     <script src="./index.js" defer></script>
+    <div class="flex flex-col items-center gap-4">
+    <div class="parent shadow-amber-800 border-s-fuchsia-800 shadow-2xl grid grid-rows-3 grid-cols-3 bg-amber-100 border-2 w-[400px] h-[400px]">
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold "></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box  border-2 text-4xl font-extrabold"></div>
+       <div class=" flex justify-center items-center box  border-2 text-4xl font-extrabold"></div>
+    </div>
+    <div>
+         <button type="submit" 
+              class=" X w-full md:w-auto px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-medium rounded-lg shadow-md transition">
+        X
+      </button>
+        <button type="submit" 
+              class=" O w-full md:w-auto px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-medium rounded-lg shadow-md transition">
+        O
+      </button>
+        <button type="reset"  id="reset"
+              class="w-full md:w-auto px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-medium rounded-lg shadow-md transition">
+        reset
+      </button>
+      <h2 class="text-4xl font-bold text-red-600 shadow-2xl" id="winnerText"></h2>
+    </div>
+    </div>
+</body>
+</html>
